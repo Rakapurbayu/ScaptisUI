@@ -37,7 +37,7 @@ body {
 
 .logo {
     padding-top: 20px;
-margin-right: 400px;
+    margin-right: 400px;
 }
 
 .menu {
@@ -80,6 +80,7 @@ img {
 
 /* Section styles */
 .section {
+    width: 1000px;
     background-color: #282828;
     padding: 40px 20px;
 }
@@ -141,36 +142,14 @@ button {
     background-color: #282828;
     padding-left: 50px;
     justify-content: space-around;
-    padding-right: 50px;
+    padding-right: 80px;
     padding-top: 80px;
 }
 
 .content-wrapper {
     margin-top: 100px;
 }
-.amazing-section {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #282828;
-    padding-left: 50px;
-    justify-content: space-between;
-    padding-right: 50px;
-}
 
-.amazing-section img {
-    width: 400px;
-    height: 280px;
-    margin-top: 20px;
-    padding-right: 50px;
-}
-
-/* Benefits section styles */
-.benefits-section1 {
-    display: flex;
-    justify-content: space-around;
-    background-color: #282828;
-    padding: 70px;
-}
 
 /* Benefits section styles */
 .kotak {
@@ -179,33 +158,28 @@ button {
     margin-left: 100px;
 }
 
-.benefits-section2 {
-    background-color: #282828;
-    padding: 20px;
-}
-
 .katahudie {
     background-color: #282828;
     margin-top: 200px;
-padding-left: 70px;
+    padding-left: 70px;
 }
 
 .katatopi {
     background-color: #282828;
     margin-top: 130px;
-padding-left: 70px;
+    padding-left: 70px;
 }
 
 .tumpukbawah {
-position: absolute;
-margin-left: 800px;
-margin-top: 80px;
-height: 600px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 80px;
+    height: 600px;
 }
 
 .tumpukatas {
-margin-right: 60px;
-margin-bottom: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
 }
 
 .model {
@@ -223,10 +197,18 @@ margin-bottom: 60px;
 
 /* Square styles */
 .square {
-    width: 100px;
-    height: 100px;
-    background-color: #282828;
-    margin: 0 auto 20px;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.galery {
+    padding-top: 40px;
+    display:flex ;
+    flex-direction: row;
+    background-color:#282828;
+    display: flex;
+    justify-content: space-around;
+    /* Distribute squares evenly */
 }
 
 /* Footer styles */
@@ -282,16 +264,17 @@ footer {
     a {
         padding: 8px 16px;
     }
-        /* Atur padding pada publication section agar responsif */
-        .publication-section {
-            padding: 20px;
-        }
-    
-        /* Atur lebar dan tinggi kotak menjadi lebih kecil agar sesuai dengan layar smartphone */
-        .square {
-            width: 80px;
-            height: 80px;
-        }
+
+    /* Atur padding pada publication section agar responsif */
+    .publication-section {
+        padding: 20px;
+    }
+
+    /* Atur lebar dan tinggi kotak menjadi lebih kecil agar sesuai dengan layar smartphone */
+    .square {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 /* Tablet */
